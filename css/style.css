@@ -1,0 +1,16 @@
+.background { 
+    color: tan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: dark brown ;
+ }
+
+ h5 {
+     background-color: dark gray;
+     border-radius: 30px;
+ }
+ /* //https://www.w3schools.com/css/css_background.asp */
+ body {
+    background-image: url("wood\ background.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+  }
