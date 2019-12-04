@@ -8,8 +8,8 @@ console.log('javascript is UP');
 
 console.log('user stated their name was ' + userName);
 
-var myName = prompt( userName + ', what is my name');
-if (myName === 'harlen'){
+var myName = prompt( userName + ', is my name harlen');
+if (myName === 'yes'){
     alert('great job' + userName + '!');
 } else {
     alert('sorry ' + userName + ', that is incorrect.');
@@ -22,15 +22,31 @@ if(lowerCaseUsername === 'harlen') {
   alert('welcome, please enjoy my site.');
 }
 
-var hometown = prompt(userName + ', where am I originally from?');
-if(hometown === 'placerville'){
+var hometown = prompt(userName + ', am I originally from Mexico?');
+if(hometown === 'no'){
     alert('wow' + userName + ', how did you know that?');
 } else {
     alert( ' oh, too bad' + userName + '.');
 }
-var activity = prompt(userName + ', what is my favorite activity');
-if(activity === 'woodworking');{
-    alert('you are on fire, great job!!!');
+var activity = prompt(userName + ', is my favorite activity EDH');
+if(activity === ' yes') {
+    alert('you are on fire, great job!!!'); 
+} else {
+    alert( 'Come on, i know you know this!');
+}
+
+var beer = prompt(userName + ', is my favorite adult beverage IPA?');
+if(beer === 'yes'){
+    alert('wow' + userName + ', how did you know that?');
+} else {
+    alert( ' oh, too bad' + userName + '.');
+}
+
+var anime = prompt(userName + ', do i watch Anime?');
+if(anime === 'yes'){
+    alert('wow' + userName + ', how did you know that?');
+} else {
+    alert( ' oh, too bad' + userName + '.');
 }
 
 alert('Thank you' + userName + ' for taking part of this short questionaire, further on you will learn more about me');

@@ -20,3 +20,21 @@
       width: 200px;
       float: left;
   }
+
+  li {
+      /* background-color: khaki; */
+      background-origin: padding-box;
+      float: inline-start;
+      /* opacity: 45%; */
+  } ul {
+      background-color: khaki;
+      opacity: 45%;
+  }
+  /* }
+   div.transbox li {
+    margin: 30px;
+    background-color: khaki;
+    border: 1px solid black;
+    opacity: 45%;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  } */
