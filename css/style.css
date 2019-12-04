@@ -10,7 +10,13 @@
  }
  /* //https://www.w3schools.com/css/css_background.asp */
  body {
-    background-image: url("wood\ background.jpg");
-    background-repeat: repeat;
+    background-image: url("wood.jpg");
+    background-repeat: no-repeat;
     background-attachment: scroll;
+    background-size: cover;
+  }
+  #profile {
+      border-radius: 20px;
+      width: 200px;
+      float: left;
   }
