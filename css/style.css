@@ -14,6 +14,7 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    font-family: 'Freckle Face', cursive;
   }
   #profile {
       border-radius: 20px;
@@ -26,10 +27,19 @@
       background-origin: padding-box;
       float: inline-start;
       /* opacity: 45%; */
-  } ul {
+  } 
+  
+  ul {
       background-color: khaki;
       opacity: 45%;
   }
+
+
+  #topTen {
+    margin-left: 50%;
+    margin-top: 30px;
+  }
+
   /* }
    div.transbox li {
     margin: 30px;
@@ -37,4 +47,23 @@
     border: 1px solid black;
     opacity: 45%;
     filter: alpha(opacity=60); /* For IE8 and earlier */
+  /* } */ */
+/* 
+  footer {
+      align;
+  } */
+/* 
+
+
+
+
+
+
+  //box modeling stuff
+
+  h1 { 
+      background-color: red;
+      margin-right: 100px;
+      border: 200px;
+      padding: 15px;
   } */
