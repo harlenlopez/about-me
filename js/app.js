@@ -94,7 +94,7 @@ var q7 = function(){
   // theRightStuff[1] = 'stout';
   // theRightStuff[2] = 'blonde';
   // theRightStuff[3] = 'red';
-  
+
   // eslint-disable-next-line no-redeclare
   for (var i = 0; i < 7; i++) {
     for (var h = 0; h < theRightStuff.length; h++) {
@@ -102,12 +102,12 @@ var q7 = function(){
         alert('great choice');
         i = 7;
         score++;
-  
+
         break;
       }
     }
     if (i !== 7) {
-  
+
       theRightStuff = prompt('sorry, please select a better answer');
     }
   }
@@ -117,8 +117,6 @@ q7();
 
 
 alert('Thank you' + userName + ' for taking part of this short questionaire, further on you will learn more about me, you got ' + score + ' answers right');
-
-
 
 
 // var i = 0;
@@ -148,12 +146,19 @@ alert('Thank you' + userName + ' for taking part of this short questionaire, fur
 
 // console.log  ('liftoff');
 
+// // //an array;
+// var theRightStuff = ['apple', 'orange', 'kiwi'];
+// theRightStuff[1] = 'apricot';
+// console.log(theRightStuff[1]);
+// theRightStuff[1] = 'apricot';
+// console.log(theRightStuff[1]);
 
-// //an array;
-var theRightStuff = ['apple', 'orange', 'kiwi'];
-theRightStuff[1] = 'apricot';
-console.log(theRightStuff[1]);
-theRightStuff[1] = 'apricot';
-console.log(theRightStuff[1]);
 
+// function lottery(){
+//     var lottery = [];
+//     for(var i = 0; i < 5; i++){
+//       lottery.push
+//     }
+//     return Math.ceil(math.random()*99);
 
+// }
