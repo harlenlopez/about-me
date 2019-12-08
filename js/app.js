@@ -5,14 +5,6 @@ var userName = prompt('Hello, may i please have your name?');
 var hello = userName + ' you are invited to play a game to get to know me a little bit better!';
 alert(hello);
 
-console.log('javascript is UP');
-
-console.log('user stated their name was ' + userName);
-
-// if (window.location.pathname.endswitch('quiz.html'));{
-//  } else {
-//      alert ( 'hello , + userName +  'welcome to my site');
-//  }
 var myName = prompt(userName + ', is my name harlen');
 var q1 = function(){
   if (myName === 'yes') {
@@ -90,12 +82,7 @@ q6();
 var q7 = function(){
   var multipleChoice = prompt(userName + ', here we get to have fun with multiple answer questions, please select a type of beer.');
   var theRightStuff = ['IPA', 'stout', 'blonde', 'red'];
-  // theRightStuff[0] = 'IPA';
-  // theRightStuff[1] = 'stout';
-  // theRightStuff[2] = 'blonde';
-  // theRightStuff[3] = 'red';
 
-  // eslint-disable-next-line no-redeclare
   for (var i = 0; i < 7; i++) {
     for (var h = 0; h < theRightStuff.length; h++) {
       if (theRightStuff[h].toLowerCase() === multipleChoice.toLowerCase()) {
@@ -114,51 +101,4 @@ var q7 = function(){
 };
 q7();
 
-
-
 alert('Thank you' + userName + ' for taking part of this short questionaire, further on you will learn more about me, you got ' + score + ' answers right');
-
-
-// var i = 0;
-// while(i< theRightStuff.length) {
-//     console.log(theRightStuff[i]);
-//     i = i + 1;
-// }
-
-// for (var numberOfTimes = 0; numberOfTimes <2; numberOfTimes = +1) {
-//     for (var i = 0; i < theRightStuff.length; i = i + 1) {
-//     console.log(theRightStuff[i]);
-//     }
-// }
-
-// //lopps
-// // countdown/
-// var timeToLiftOff = 10;
-//  console.log(timeToLiftOff); //should log 10 
-//  timeToLiftOff - 1;
-//  console.log(timeToLiftOff); //should be 9 in log
-//  //keep doing that 8 more times, we dont want to repaet the code over and over instead turn into a loop
-//  timeToLiftOff = timeToLiftOff -1;
-//  while (timeToLiftOff > 0) {
-//     console.log(timeToLiftOff);
-//     timeToLiftOff = timeToLiftOff -1;
-// }
-
-// console.log  ('liftoff');
-
-// // //an array;
-// var theRightStuff = ['apple', 'orange', 'kiwi'];
-// theRightStuff[1] = 'apricot';
-// console.log(theRightStuff[1]);
-// theRightStuff[1] = 'apricot';
-// console.log(theRightStuff[1]);
-
-
-// function lottery(){
-//     var lottery = [];
-//     for(var i = 0; i < 5; i++){
-//       lottery.push
-//     }
-//     return Math.ceil(math.random()*99);
-
-// }
